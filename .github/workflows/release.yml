@@ -19,10 +19,6 @@ jobs:
   publish:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
-      id-token: write
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -37,7 +33,7 @@ jobs:
         uses: pnpm/action-setup@v3
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Publish to npm
-        run: pnpm publish --no-git-checks --access public
+        run: pnpm publish --access public
