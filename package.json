@@ -19,5 +19,8 @@
     "stream_viewer.js",
     "stream_viewer.html"
   ],
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
 }
