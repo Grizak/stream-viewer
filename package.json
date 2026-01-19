@@ -1,6 +1,6 @@
 {
   "name": "stream-viewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "stream_viewer.js",
   "keywords": [],
@@ -19,5 +19,8 @@
     "stream_viewer.js",
     "stream_viewer.html"
   ],
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
 }
