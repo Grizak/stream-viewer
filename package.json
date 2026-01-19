@@ -1,0 +1,23 @@
+{
+  "name": "stream-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stream_viewer.js",
+  "keywords": [],
+  "author": "Isak Grönlund <gronlundisak11@gmail.com> (https://isaksweb.xyz)",
+  "license": "MIT",
+  "packageManager": "pnpm@10.28.1",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  },
+  "bin": {
+    "stream-viewer": "./stream_viewer.js"
+  },
+  "files": [
+    "stream_viewer.js",
+    "stream_viewer.html"
+  ],
+  "type": "module"
+}
